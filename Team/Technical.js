@@ -6,8 +6,6 @@ function displayResult5(responseM) {
         let k = 1;
         let teamDivMarket = document.getElementById("TechnicalTeam");
         while (k < responseM.result.values.length) {
-            console.log(k);
-
             for (let r = k; r < k + 4; r++) {
                 // both linkedin and github exists
                 if (responseM.result.values[r]) {
