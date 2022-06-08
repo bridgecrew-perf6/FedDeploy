@@ -417,7 +417,7 @@ input[type="radio"] {
         flex-direction: column;
     }
     .popmDivcontent {
-        top: -10px;
+        top: -20px;
         border-radius: 0px;
         width: 100%;
     }
