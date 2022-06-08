@@ -1,0 +1,215 @@
+.TeamCreative {
+    margin: 80px 30px;
+}
+
+.TeamName {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.TeamName span {
+    color: #f45725;
+}
+
+.TeamNameSubTitle {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin-bottom: 80px;
+}
+
+.colDiv1,
+.colDiv2 {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.teamColDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.memDivMain {
+    position: relative;
+}
+
+.memImgDiv,
+.memImg {
+    box-sizing: initial;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.memImgDiv {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #c4c4c4;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.memlinks {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    backdrop-filter: blur(1px);
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.memImgDiv:hover>.memlinks {
+    opacity: 1;
+    visibility: visible;
+}
+
+.svg {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.memLink {
+    background-color: transparent;
+}
+
+.svg path {
+    transition: all 0.3s;
+}
+
+.svg path:hover {
+    color: #f45725;
+}
+
+.memName {
+    text-transform: capitalize;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+    position: absolute;
+    bottom: 4px;
+    right: 0px;
+    background-color: #f4c300;
+    text-align: center;
+    padding: 4px 24px;
+    border-radius: 8px;
+    width: 45%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.memName,
+.memImgDiv {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#OperationsTeam,
+#MarketingTeam,
+#CreativeTeam,
+#TechnicalTeam {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(2, minmax(250px, 1fr));
+    gap: 130px 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    .memDivMain {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .memDivMain {
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .memDivMain {
+        width: 70%;
+        margin-left: 25%;
+    }
+    .TeamName {
+        font-size: 40px;
+    }
+    .TeamNameSubTitle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .memDivMain {
+        width: 80%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .memDivMain {
+        width: 90%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .memImgDiv,
+    .memImg {
+        width: 80px;
+        height: 80px;
+    }
+    .svg {
+        width: 24px;
+        height: 24px;
+        background-color: transparent;
+    }
+    #OperationsTeam {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-rows: repeat(4, minmax(100px, 1fr));
+        gap: 33px 20px;
+    }
+    .memDivMain {
+        width: 65%;
+        margin-left: 25%;
+    }
+    .TeamName {
+        font-size: 20px;
+    }
+    .TeamNameSubTitle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+    }
+}

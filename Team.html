@@ -2,22 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/teamPage.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
 
     <link rel="icon" href="./Img/FedLogo.png" />
-    <!-- css -->
-    <link rel="stylesheet" href="./CSS/nav.css" />
-    <link rel="stylesheet" href="./CSS/home.css">
-    <link rel="stylesheet" href="./CSS/footer.css" />
-    <link rel="stylesheet" href="./CSS/flicker.css">
 
-    <!-- js -->
+    <!-- Js -->
     <script src="./js/nav.js" defer></script>
-    <script src="./js/carousel.js" defer></script>
 
-    <title>Home</title>
+    <!-- Team -->
+    <script src="./Team/Technical.js" defer></script>
+    <script src="./Team/Operations.js" defer></script>
+    <script src="./Team/Creative.js" defer></script>
+    <script src="./Team/Marketing.js" defer></script>
+
+    <title>Team Page</title>
 </head>
 
 <body>
@@ -129,170 +134,32 @@
         </div>
     </div>
 
-    <!-- header -->
-    <div>
-        <img src="./Img/background.png" alt="" class="backgroundImg">
+    <!-- Technical -->
+    <div class="TeamCreative">
+        <p class="TeamName">Team <span>Technical</span></p>
+        <p class="TeamNameSubTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eu amet elit aliquet in nibh interdum.</p>
+        <div id="TechnicalTeam"></div>
     </div>
 
-    <!-- carousel -->
-    <!-- <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" class="carouselImg">
-            <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-            <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" class="carouselImg">
-            <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" class="carouselImg">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-
-    </div> -->
-    <!-- <br> -->
-
-    <!-- <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div> -->
-    <!--  -->
-    <!--  -->
-
-    <!-- Know Us -->
-    <div class="KnowUsmDiv">
-
-        <p class="KnowUspTag">Know us</p>
-        <p id="KnowUspTag">a little better..</p>
-
-        <img src="./Img/image 7.png" alt="" class="womenWithALaptop">
-        <p id="womenBelowText">Aenean ut nulla duis lacus, vitae. Nibh nisl ipsum id sem eget nulla nulla. In ac, ac at tempor vel. Sed at sed vel fringilla ligula pharetra, et nisl. Mauris hac non adipiscing molestie.Nunc, consequat et et lorem. Pulvinar aliquam, hac imperdiet
-            dignissim ut congue diam habitasse. Consectetur urna cursus tellus nulla pretium convallis. </p>
+    <!-- Operations -->
+    <div class="TeamCreative">
+        <p class="TeamName">Team <span>Operations</span></p>
+        <p class="TeamNameSubTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eu amet elit aliquet in nibh interdum.</p>
+        <div id="OperationsTeam"></div>
     </div>
 
-    <!-- Why_What_How -->
-    <div class="WhyHowWhatDiv">
-        <div class="whyDiv">
-            <img src="./Img/why.png" alt="" class="why">
-            <p class="questionpTag">The <span>Why?</span></p>
-            <p class="CardDesPTag">We seek to <span>foster entrepreneurship</span> through creative, one-of-a-kind, authentic, and efficient techniques.</p>
-        </div>
-        <div class="HowDiv">
-            <img src="./Img/how.png" alt="" class="how">
-            <p class="questionpTag">The <span>How?</span></p>
-            <p class="CardDesPTag">We are able to do all of this because of
-                <span>strong collaboration and hospitality among members of society</span>, which our organization instills in the participants.</p>
-        </div>
-        <div class="WhatDiv">
-            <img src="./Img/what.png" alt="" class="what">
-            <p class="questionpTag">The <span>What?</span></p>
-            <p class="CardDesPTag"> Through our social media handles, we <span>arrange informative podcasts, high-quality events, and inspiring and thought-provoking material.</span>
-            </p>
-        </div>
+    <!-- Marketing -->
+    <div class="TeamCreative">
+        <p class="TeamName">Team <span>Marketing</span></p>
+        <p class="TeamNameSubTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eu amet elit aliquet in nibh interdum.</p>
+        <div id="MarketingTeam"></div>
     </div>
 
-    <!-- Believe -->
-    <p class="BelievePTag">What we <span>believe</span> in...🤔</p>
-
-    <div class="believeCenterDiv">
-        <div class="believeCenterCol">
-            <p>Providing a <span>forum for young entrepreneurs</span> and assisting them in launching their businesses.</p>
-        </div>
-        <div class="believeCenterCol">
-            <p>Providing useful information that indicates an organization's ability to <span>function as a cohesive one.</span></p>
-        </div>
-        <div class="believeCenterCol">
-            <p>Organizing entrepreneurial activities to <span>boost the confidence</span> of aspiring entrepreneurs.</p>
-        </div>
-        <div class="believeCenterCol">
-            <p>Implementing an <span>industry-focused mindset</span> with a distinct perspective on things.</p>
-        </div>
-        <div class="believeCenterCol">
-            <p>Aiming in <span>providing a hospitable and welcoming environment</span> among team members, collaborators, and participants.</p>
-        </div>
-    </div>
-
-    <!-- testimonial -->
-    <p class="BelievePTag">What do <span>they say</span> about us?</p>
-
-    <div class="testDivMain">
-        <div class="testDivChild">
-            <div class="testDiv">
-                <p class="testpTag">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida consectetur nec eros, in. Sed velit enim, egestas interdum sit et. Mi commodo mi nec adipiscing lobortis dui elementum quisque. Placerat tincidunt commodo mauris aliquet
-                    vulputate amet, id tortor, faucibus.”</p>
-
-                <div class="userDiv">
-                    <img src="./Img/user.png" alt="user" class="UserIcon">
-                    <div class="userDisDiv">
-                        <p class="userName">Lyla Rosen</p>
-                        <p class="userPost">Lyla Rosen</p>
-                    </div>
-                </div>
-            </div>
-            <div class="testDiv">
-                <p class="testpTag">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida consectetur nec eros, in. Sed velit enim, egestas interdum sit et. Mi commodo mi nec adipiscing lobortis dui elementum quisque. Placerat tincidunt commodo mauris aliquet
-                    vulputate amet, id tortor, faucibus.”</p>
-
-                <div class="userDiv">
-                    <img src="./Img/user.png" alt="user" class="UserIcon">
-                    <div class="userDisDiv">
-                        <p class="userName">Lyla Rosen</p>
-                        <p class="userPost">Lyla Rosen</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="SeeallDiv">
-        <p class="Seeall"><span id="Seeall">See all</span> <span>></span></p>
-    </div>
-
-    <!-- we work with -->
-    <div class="WeWorkWith">
-        <p class="WeWorkWithPTag">We <span>work</span> with...</p>
-
-        <div class="corousal">
-            <div class="cardMain">
-                <img src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129" alt="" class="cardImgTag">
-            </div>
-        </div>
-
-        <div class="pTagDivWork">
-            <p class="workptagDes">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper vel suspendisse pharetra, ultrices. Tortor risus hac varius ipsum. Feugiat nunc feugiat amet ac sit elit pretium. Duis praesent volutpat quis euismod cras maecenas viverra arcu.
-            </p>
-        </div>
-    </div>
-
-    <!-- business -->
-    <div class="businessMDiv">
-        <div class="businessMDivleft">
-            <p class="LetsTalkBusiness">Let’s Talk <span>Business</span></p>
-            <p class="LetsTalkBusinessSubtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, faucibus id dignissim massa sed augue ut magna aliquet.</p>
-        </div>
-        <div class="businessMDivright">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="text" name="email" id="">
-            </div>
-            <div>
-                <label for="Message">Message:</label>
-                <textarea name="Message" id="" cols="30" rows="10"></textarea>
-            </div>
-            <button>Send</button>
-        </div>
+    <!-- Creative -->
+    <div class="TeamCreative">
+        <p class="TeamName">Team <span>Creative</span></p>
+        <p class="TeamNameSubTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl eu amet elit aliquet in nibh interdum.</p>
+        <div id="CreativeTeam"></div>
     </div>
 
     <!-- footer -->
@@ -411,6 +278,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
 </body>
 
 </html>
