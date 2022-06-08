@@ -1,3 +1,6 @@
+// API KEY
+const API_KEY = "AIzaSyDK1DvfGnhwq38IartCEb7dfkTVsZzebUw";
+
 let ops = 0;
 
 function displayResult2(response) {

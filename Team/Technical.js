@@ -1,23 +1,18 @@
-// API KEY
-const API_KEY = "AIzaSyDK1DvfGnhwq38IartCEb7dfkTVsZzebUw";
-
 let tech = 0;
 
 function displayResult5(responseM) {
     tech++;
     if (tech > 1) {} else {
-        // let k = 1;
+        let k = 1;
         let teamDivMarket = document.getElementById("TechnicalTeam");
-        // while (k < responseM.result.values.length) {
-        // console.log(k);
+        while (k < responseM.result.values.length) {
+            console.log(k);
 
-        for (let r = 1; r < responseM.result.values.length; r++) {
-            console.log(r);
-
-            // both linkedin and github exists
-            if (responseM.result.values[r]) {
-                if (responseM.result.values[r][3] && responseM.result.values[r][4]) {
-                    teamDivMarket.innerHTML += `<div class="memDivMain">
+            for (let r = k; r < k + 4; r++) {
+                // both linkedin and github exists
+                if (responseM.result.values[r]) {
+                    if (responseM.result.values[r][3] && responseM.result.values[r][4]) {
+                        teamDivMarket.innerHTML += `<div class="memDivMain">
                     <div class="memImgDiv">
                         <img src="${responseM.result.values[r][2]}" alt="" class="memImg">
                         <div class="memlinks">
@@ -35,24 +30,24 @@ function displayResult5(responseM) {
                     </div>
                     <p class="memName">${responseM.result.values[r][1]}</p>
                 </div>`;
-                }
-                // linkedin && github does not exists
-                else if (!responseM.result.values[r][3] &&
-                    !responseM.result.values[r][4]
-                ) {
-                    teamDivMarket.innerHTML += `    <div class="memDivMain">
+                    }
+                    // linkedin && github does not exists
+                    else if (!responseM.result.values[r][3] &&
+                        !responseM.result.values[r][4]
+                    ) {
+                        teamDivMarket.innerHTML += `    <div class="memDivMain">
                     <div class="memImgDiv">
                         <img src="${responseM.result.values[r][2]}" alt="" class="memImg">
                         </div>
                     <p class="memName">${responseM.result.values[r][1]}</p>
                 </div>`;
-                }
-                // if linkedin exists && github does not
-                else if (
-                    responseM.result.values[r][3] &&
-                    !responseM.result.values[r][4]
-                ) {
-                    teamDivMarket.innerHTML += `    <div class="memDivMain">
+                    }
+                    // if linkedin exists && github does not
+                    else if (
+                        responseM.result.values[r][3] &&
+                        !responseM.result.values[r][4]
+                    ) {
+                        teamDivMarket.innerHTML += `    <div class="memDivMain">
                     <div class="memImgDiv">
                         <img src="${responseM.result.values[r][2]}" alt="" class="memImg">
                         <div class="memlinks">
@@ -65,12 +60,12 @@ function displayResult5(responseM) {
                     </div>
                     <p class="memName">${responseM.result.values[r][1]}</p>
                 </div>`;
-                }
-                // if github exists && linkedin does not
-                else if (!responseM.result.values[r][3] &&
-                    responseM.result.values[r][4]
-                ) {
-                    teamDivMarket.innerHTML += `    <div class="memDivMain">
+                    }
+                    // if github exists && linkedin does not
+                    else if (!responseM.result.values[r][3] &&
+                        responseM.result.values[r][4]
+                    ) {
+                        teamDivMarket.innerHTML += `    <div class="memDivMain">
                     <div class="memImgDiv">
                         <img src="" alt="" class="memImg">
                         <div class="memlinks">
@@ -83,11 +78,11 @@ function displayResult5(responseM) {
                     </div>
                     <p class="memName">${responseM.result.values[r][1]}</p>
                 </div>`;
+                    }
                 }
             }
+            k += 4;
         }
-        // k += 4;
-        // }
     }
 }
 
