@@ -168,8 +168,11 @@
         font-size: 14px;
         line-height: 150%;
     }
-    #OperationsTeam {
-        gap: 130px 0px;
+    #OperationsTeam,
+    #MarketingTeam,
+    #CreativeTeam,
+    #TechnicalTeam {
+        gap: 33px 0px;
     }
 }
 
