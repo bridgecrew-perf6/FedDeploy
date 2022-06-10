@@ -6,6 +6,7 @@ function displayResult4(response) {
         let j = 1;
 
         let teamDiv = document.getElementById("CreativeTeam");
+        teamDiv.innerHTML = "";
         while (j < response.result.values.length) {
             for (let i = j; i < j + 4; i++) {
                 // both linkedin and github exists
