@@ -390,8 +390,13 @@
     margin-bottom: 10px;
 }
 
+form {
+    background-color: transparent;
+}
+
 .businessMDivright div input,
 .businessMDivright div textarea {
+    color: #000;
     background-color: #fff;
     padding: 6px;
     font-family: "Manrope", sans-serif;
