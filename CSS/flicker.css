@@ -173,18 +173,11 @@
 
 @media only screen and (max-width: 650px) {
     .slideshow-container {
-        position: static;
+        /* position: static; */
     }
     .carouselInnerDiv {
         top: auto;
-        bottom: -30px;
-        width: 100%;
-        height: 62%;
-        padding: 0px 0px 0px 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        bottom: 0px;
     }
     .textFed {
         line-height: 150%;
