@@ -140,50 +140,52 @@
     </div>
 
     <!-- carousel -->
-    <div class="carousel">
-        <div class="slideshow-container">
+    <section id="carousel">
+        <div class="carousel">
+            <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <img src="./Img/background.png" class="carouselImg">
-                <div class="carouselInnerDiv">
-                    <div class="text">
-                        <p class="textFed">Federation of
-                            <span>Entrepreneurship</span>
-                            <br> Development
-                        </p>
-                        <p class="textFedDescription">The Federation of Entrepreneurship Development is the student body of KIIT TBI which aims to bring all ideas, potential startups under one umbrella ☂️</p>
+                <div class="mySlides fade">
+                    <img src="./Img/background.png" class="carouselImg">
+                    <div class="carouselInnerDiv">
+                        <div class="text">
+                            <p class="textFed">Federation of
+                                <span>Entrepreneurship</span>
+                                <br> Development
+                            </p>
+                            <p class="textFedDescription">The Federation of Entrepreneurship Development is the student body of KIIT TBI which aims to bring all ideas, potential startups under one umbrella ☂️</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="mySlides fade">
-                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" class="carouselImg">
-                <div class="carouselInnerDiv">
-                    <div class="numbertext">2 / 3</div>
-                    <div class="text">Caption Two</div>
+                <div class="mySlides fade">
+                    <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" class="carouselImg">
+                    <div class="carouselInnerDiv">
+                        <div class="numbertext">2 / 3</div>
+                        <div class="text">Caption Two</div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="mySlides fade">
-                <img src="https://www.howtogeek.com/wp-content/uploads/2021/01/windows_hello_hero_2.jpg?height=200p&trim=2,2,2,2&crop=16:9" class="carouselImg">
-                <div class="carouselInnerDiv">
-                    <div class="numbertext">3 / 3</div>
-                    <div class="text">Caption Three</div>
+                <div class="mySlides fade">
+                    <img src="https://www.howtogeek.com/wp-content/uploads/2021/01/windows_hello_hero_2.jpg?height=200p&trim=2,2,2,2&crop=16:9" class="carouselImg">
+                    <div class="carouselInnerDiv">
+                        <div class="numbertext">3 / 3</div>
+                        <div class="text">Caption Three</div>
+                    </div>
                 </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
             </div>
+            <br>
 
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
-
+            <div id="dotsDiv">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
         </div>
-        <br>
-
-        <div id="dotsDiv">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-    </div>
+    </section>
 
     <!-- Know Us -->
     <section id="KnowUs">
