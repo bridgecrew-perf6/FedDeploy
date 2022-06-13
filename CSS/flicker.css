@@ -177,14 +177,14 @@
 @media only screen and (max-width: 650px) {
     #dotsDiv {
         top: auto;
-        bottom: 0px;
+        bottom: 70px;
     }
     .slideshow-container {
         position: static;
     }
     .carouselInnerDiv {
         top: auto;
-        bottom: 0px;
+        bottom: 90px;
     }
     .textFed {
         line-height: 150%;
