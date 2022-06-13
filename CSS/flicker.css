@@ -22,7 +22,7 @@
     padding: 0px 0px 0px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -88,9 +88,10 @@
 
 #dotsDiv {
     position: absolute;
-    bottom: 0;
+    top: 570px;
     margin-left: 30px;
     background-color: transparent;
+    /* background-color: red; */
 }
 
 .dot {
@@ -171,9 +172,6 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .carouselInnerDiv {
-        justify-content: flex-end;
-    }
     .slideshow-container {
         position: static;
     }
