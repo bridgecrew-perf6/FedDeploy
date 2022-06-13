@@ -140,6 +140,7 @@
 }
 
 .textFedDescription {
+    width: 70%;
     margin: 30px 0px;
     font-family: "Manrope";
     font-style: normal;
@@ -150,6 +151,50 @@
     letter-spacing: 0.005em;
     background-color: transparent;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .textFed {
+        font-size: 40px;
+    }
+    .textFedDescription {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .textFed {
+        font-size: 30px;
+    }
+    .textFedDescription {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .slideshow-container {
+        position: static;
+    }
+    .carouselInnerDiv {
+        top: auto;
+        bottom: 20px;
+        width: 100%;
+        height: 62%;
+        padding: 0px 0px 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textFed {
+        line-height: 150%;
+        font-size: 20px;
+    }
+    .textFedDescription {
+        font-weight: 500;
+        line-height: 150%;
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 300px) {
