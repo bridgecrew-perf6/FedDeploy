@@ -172,6 +172,9 @@
 }
 
 @media only screen and (max-width: 650px) {
+    .carouselInnerDiv {
+        justify-content: flex-end;
+    }
     .slideshow-container {
         position: static;
     }
