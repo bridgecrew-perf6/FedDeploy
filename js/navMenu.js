@@ -1,15 +1,24 @@
-// window.addEventListener("scroll", activeMenu);
+const sections = document.querySelectorAll("section[id]");
 
-// function activeMenu() {
-//     var scrollTop = document.getElementById("KnowUsmDiv").scrollTop();
+window.addEventListener("scroll", navHighlighter);
 
-//     if (scrollTop) {
-//         console.log(scrollTop);
-//     }
+function navHighlighter() {
+    let scrollY = window.pageYOffset;
+    sections.forEach((current) => {
+        const sectionHeight = current.offsetHeight;
 
-// const aboutUs = document.getElementById();
+        const sectionTop =
+            current.getBoundingClientRect().top + window.pageYOffset - 50;
+        sectionId = current.getAttribute("id");
 
-// if (window.scrollY >= 770 && window.scrollY <=3175.333251953125) {
-//     console.log(window.scrollY);
-// }
-// }
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            if (current.getAttribute("id") === "KnowUs") {
+                document.getElementById("KnowUsATag").innerHTML = ` <li>
+                <p class="active">About Us</p>
+            </li>`;
+            } else if (current.getAttribute("id") !== "KnowUs") {
+                document.getElementById("KnowUsATag").innerHTML = `<li>About Us</li>`;
+            }
+        } else {}
+    });
+}
