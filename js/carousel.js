@@ -28,3 +28,14 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " activeCarousel";
 }
+
+var counter = 1;
+setInterval(function() {
+    let slides = document.getElementsByClassName("mySlides");
+    counter++;
+    if (counter > slides.length) {
+        counter = 1;
+    } else {
+        plusSlides(1);
+    }
+}, 5000);
