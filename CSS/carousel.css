@@ -7,7 +7,6 @@
 .slider {
     height: 250px;
     margin: auto;
-    /* position: absolute; */
     width: 100%;
     display: grid;
     place-items: center;
