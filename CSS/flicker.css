@@ -172,6 +172,10 @@
 }
 
 @media only screen and (max-width: 650px) {
+    #dotsDiv {
+        top: auto;
+        bottom: 0px;
+    }
     .slideshow-container {
         position: static;
     }
