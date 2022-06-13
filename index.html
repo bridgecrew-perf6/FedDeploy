@@ -15,6 +15,7 @@
 
     <!-- js -->
     <script src="./js/nav.js" defer></script>
+    <script src="./js/navMenu.js" defer></script>
     <script src="./js/carousel.js" defer></script>
     <script src="./js/contactUs.js" defer></script>
 
@@ -36,20 +37,23 @@
                     <a href="/" class="linkClass">
                         <li id="newLiTag">
                             <p class="active">Home</p>
+                        </li>
+                    </a>
+                    <a href="/event.html" class="linkClass">
+                        <li>Events
                             <!-- <div class="ArrowDiv">
                         <div class="NavArrow"></div>
                     </div>
                     <p id="NavNewPtag">New!</p> -->
                         </li>
                     </a>
-                    <a href="/event.html" class="linkClass">
-                        <li>Events</li>
-                    </a>
                     <li>Podcasts</li>
                     <a href="./Team.html" class="linkClass">
                         <li>Our Team</li>
                     </a>
-                    <li>About Us</li>
+                    <a href="#KnowUs" class="linkClass">
+                        <li>About Us</li>
+                    </a>
                     <li>Contact Us</li>
                 </ul>
             </div>
@@ -172,11 +176,9 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <!--  -->
-    <!--  -->
 
     <!-- Know Us -->
-    <div class="KnowUsmDiv">
+    <div class="KnowUsmDiv" id="KnowUs">
 
         <p class="KnowUspTag">Know us</p>
         <p id="KnowUspTag">a little better..</p>
