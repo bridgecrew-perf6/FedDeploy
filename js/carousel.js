@@ -29,6 +29,7 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " activeCarousel";
 }
 
+// auto play
 var counter = 1;
 setInterval(function() {
     let slides = document.getElementsByClassName("mySlides");
