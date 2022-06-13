@@ -186,6 +186,7 @@
         font-size: 20px;
     }
     .textFedDescription {
+        width: 100%;
         font-weight: 500;
         line-height: 150%;
         font-size: 14px;
