@@ -6,6 +6,7 @@
     background-color: #0f0e0e;
     color: #fff;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .active {
