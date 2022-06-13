@@ -8,7 +8,10 @@ function displayResult4(response) {
         let teamDiv = document.getElementById("CreativeTeam");
         teamDiv.innerHTML = "";
         while (j < response.result.values.length) {
+            let rowNumber = 0;
             for (let i = j; i < j + 4; i++) {
+                rowNumber++;
+
                 // both linkedin and github exists
                 if (response.result.values[i]) {
                     if (response.result.values[i][3] && response.result.values[i][4]) {
@@ -29,7 +32,7 @@ function displayResult4(response) {
                             </a>
                         </div>
                     </div>
-                    <p class="memName">${response.result.values[i][1]}</p>
+                    <p class="memName name${rowNumber}">${response.result.values[i][1]}</p>
                 </div>`;
                     }
                     // linkedin && github does not exists
@@ -40,7 +43,7 @@ function displayResult4(response) {
                     <div class="memImgDiv">
                         <img src="${response.result.values[i][2]}" alt="" class="memImg">
                         </div>
-                    <p class="memName">${response.result.values[i][1]}</p>
+                        <p class="memName name${rowNumber}">${response.result.values[i][1]}</p>
                 </div>`;
                     }
 
@@ -61,7 +64,7 @@ function displayResult4(response) {
                             </a>
                         </div>
                     </div>
-                    <p class="memName">${response.result.values[i][1]}</p>
+                    <p class="memName name${rowNumber}">${response.result.values[i][1]}</p>
                 </div>`;
                     }
                     // if github exists && linkedin does not
@@ -80,7 +83,7 @@ function displayResult4(response) {
                             </a>
                         </div>
                     </div>
-                    <p class="memName">${response.result.values[i][1]}</p>
+                    <p class="memName name${rowNumber}">${response.result.values[i][1]}</p>
                 </div>`;
                     }
                 }
