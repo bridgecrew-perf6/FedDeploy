@@ -168,6 +168,7 @@
     grid-template-rows: repeat(2, minmax(377px, 1fr));
     gap: 130px 20px;
     align-items: flex-start;
+    justify-items: center;
 }
 
 .coreMemMainCard {
@@ -264,7 +265,8 @@
     #OperationsTeam,
     #MarketingTeam,
     #CreativeTeam,
-    #TechnicalTeam {
+    #TechnicalTeam,
+    #CoreTeam {
         gap: 33px 0px;
     }
 }
@@ -280,5 +282,11 @@
     .memDivMain {
         width: 90%;
         margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #CoreTeam {
+        justify-items: start;
     }
 }
