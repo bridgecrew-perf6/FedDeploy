@@ -119,7 +119,17 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    transition: all 0.3s;
 }
+
+.memDivMain:hover>.memName {
+    width: fit-content;
+}
+
+
+/* .memName:hover {
+    width: fit-content;
+} */
 
 .name1 {
     background-color: #f4c300;
