@@ -161,6 +161,10 @@
     gap: 130px 20px;
 }
 
+#CoreTeam {
+    position: relative;
+}
+
 @media only screen and (max-width: 850px) {
     .memDivMain {
         width: 80%;
