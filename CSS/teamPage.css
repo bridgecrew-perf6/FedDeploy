@@ -166,7 +166,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
     grid-template-rows: repeat(2, minmax(377px, 1fr));
-    gap: 50px 20px;
+    gap: 130px 20px;
     align-items: flex-start;
 }
 
