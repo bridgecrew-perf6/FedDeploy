@@ -289,4 +289,19 @@
     #CoreTeam {
         justify-items: start;
     }
+    #CoreTeam {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        grid-template-rows: repeat(2, minmax(377px, 1fr));
+    }
+    .coreMemMainCard {
+        width: 100%;
+    }
+    .coreMemDesCard {
+        width: 90.98%;
+        height: 100%;
+    }
+    .PostAbtPTag {
+        width: 71.72%;
+        height: fit-content;
+    }
 }
