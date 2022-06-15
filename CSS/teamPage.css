@@ -123,7 +123,7 @@
 }
 
 .memDivMain:hover>.memName {
-    width: fit-content;
+    width: 80%;
 }
 
 .name1 {
