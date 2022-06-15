@@ -303,5 +303,6 @@
     .PostAbtPTag {
         width: 71.72%;
         height: fit-content;
+        text-align: justify;
     }
 }
