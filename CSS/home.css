@@ -432,6 +432,7 @@ form {
     color: #ffffff;
     background-color: #f45725;
     cursor: pointer;
+    height: 64px;
 }
 
 .carouselTopTextDiv {
