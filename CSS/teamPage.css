@@ -249,10 +249,6 @@
 }
 
 @media only screen and (max-width: 580px) {
-    .memDivMain {
-        /* width: 70%; */
-        /* margin-left: 25%; */
-    }
     .TeamName {
         font-size: 40px;
     }
