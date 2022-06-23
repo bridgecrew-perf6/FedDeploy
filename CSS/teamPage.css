@@ -244,7 +244,10 @@
 
 @media only screen and (max-width: 659px) {
     .memName {
-        color: #f45725;
+        width: auto;
+        overflow: hidden;
+        right: auto;
+        left: 55%;
     }
 }
 
