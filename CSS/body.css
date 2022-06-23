@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageExt {
+    max-width: 1550px;
+    width: 100%;
+}
