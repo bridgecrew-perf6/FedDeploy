@@ -246,7 +246,6 @@
     .memName {
         width: auto;
         max-width: 60%;
-        overflow: hidden;
         right: auto;
         left: 55%;
     }
