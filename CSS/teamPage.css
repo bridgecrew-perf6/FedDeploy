@@ -242,13 +242,6 @@
     color: #ffffff;
 }
 
-@media only screen and (max-width: 850px) {
-    .memDivMain {
-        /* width: 80%; */
-        /* margin-left: 10%; */
-    }
-}
-
 @media only screen and (max-width: 650px) {
     .memDivMain {
         margin: 0px 20px 50px 20px;
