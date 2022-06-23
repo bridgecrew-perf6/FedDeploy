@@ -266,20 +266,6 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .memDivMain {
-        /* width: 80%; */
-        /* margin-left: 20%; */
-    }
-}
-
-@media only screen and (max-width: 440px) {
-    .memDivMain {
-        /* width: 90%; */
-        /* margin-left: 10%; */
-    }
-}
-
 @media only screen and (max-width: 430px) {
     #CoreTeam {
         justify-items: start;
