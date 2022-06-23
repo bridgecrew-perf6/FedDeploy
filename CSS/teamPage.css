@@ -244,7 +244,7 @@
     }
     .memDivMain:hover>.memName {
         left: 0%;
-        width: 100%;
+        /* width: 100%; */
     }
 }
 
