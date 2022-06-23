@@ -468,8 +468,10 @@ form {
 }
 
 .popUpChildDivHome {
+    font-family: "Manrope", sans-serif;
+    text-align: center;
     position: relative;
-    border-radius: 32px;
+    border-radius: 15px;
     background-color: #0f0e0e;
     /* height: 85vh; */
     width: 60%;
