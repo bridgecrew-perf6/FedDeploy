@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
             body: new FormData(form),
         })
         .then((response) => {
-            alert("Thanks for Contacting us..! We Will Contact You Soon...");
+            // alert("Thanks for Contacting us..! We Will Contact You Soon...");
             document.getElementById(
                 "send"
             ).innerHTML = `<img src="./Img/Group 19.png" alt="" id="sendDoneImg">`;
