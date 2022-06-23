@@ -20,7 +20,6 @@ form.addEventListener("submit", (e) => {
             setTimeout(function() {
                 document.getElementById("add").style.display = "none";
             }, 3000);
-            // alert("Thanks for Contacting us..! We Will Contact You Soon...");
             document.getElementById(
                 "send"
             ).innerHTML = `<img src="./Img/Group 19.png" alt="" id="sendDoneImg">`;
