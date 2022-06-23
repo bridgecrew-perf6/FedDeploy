@@ -245,7 +245,6 @@
 @media only screen and (max-width: 659px) {
     .memName {
         width: 60%;
-        /* max-width: 60%; */
         right: auto;
         left: 55%;
     }
