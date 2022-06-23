@@ -3,7 +3,6 @@ let core = 0;
 function displayResult6(response) {
     core++;
     if (core > 1) {} else {
-        console.table(response.result.values);
         let j = 1;
 
         let teamDiv = document.getElementById("CoreTeam");
