@@ -1,5 +1,9 @@
-.TeamCreative {
+/* .TeamCreative {
     margin: 80px 30px;
+} */
+
+.coreDiv {
+    margin: 80px 0px;
 }
 
 .TeamName {
@@ -245,6 +249,7 @@
 @media only screen and (max-width: 659px) {
     .memName {
         width: auto;
+        max-width: 80%;
         overflow: hidden;
         right: auto;
         left: 55%;
