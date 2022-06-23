@@ -248,6 +248,10 @@
         right: auto;
         left: 55%;
     }
+    .memDivMain:hover>.memName {
+        left: 0%;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 650px) {
