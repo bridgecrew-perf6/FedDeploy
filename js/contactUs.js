@@ -16,6 +16,7 @@ form.addEventListener("submit", (e) => {
             body: new FormData(form),
         })
         .then((response) => {
+            document.getElementById("add").style.display = "flex";
             // alert("Thanks for Contacting us..! We Will Contact You Soon...");
             document.getElementById(
                 "send"
