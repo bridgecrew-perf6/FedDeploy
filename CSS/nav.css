@@ -9,13 +9,6 @@
     scroll-behavior: smooth;
 }
 
-
-/* body {
-    max-width: 1400px;
-    display: flex;
-    justify-content: center;
-} */
-
 .active {
     color: #f45725;
 }
