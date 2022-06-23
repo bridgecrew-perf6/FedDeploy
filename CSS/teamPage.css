@@ -242,6 +242,12 @@
     color: #ffffff;
 }
 
+@media only screen and (max-width: 659px) {
+    .memName {
+        color: #f45725;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .memDivMain {
         margin: 0px 20px 50px 20px;
