@@ -17,6 +17,9 @@ form.addEventListener("submit", (e) => {
         })
         .then((response) => {
             document.getElementById("add").style.display = "flex";
+            setTimeout(function() {
+                document.getElementById("add").style.display = "none";
+            }, 3000);
             // alert("Thanks for Contacting us..! We Will Contact You Soon...");
             document.getElementById(
                 "send"
