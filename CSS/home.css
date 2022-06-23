@@ -454,8 +454,8 @@ form {
 }
 
 .popUPSucessDiv {
-    /* display: none; */
-    display: flex;
+    display: none;
+    /* display: flex; */
     position: fixed;
     top: 0px;
     left: 0px;
@@ -479,7 +479,7 @@ form {
     transition: all 0.3s ease-out;
 }
 
-.add {
+#add {
     animation-duration: 1s;
     animation-name: addAni;
 }
