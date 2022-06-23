@@ -481,6 +481,8 @@ form {
 
 #add {}
 
+#remove {}
+
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
