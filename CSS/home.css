@@ -484,10 +484,11 @@ form {
     animation-name: addAni;
 }
 
-#remove {
+
+/* #remove {
     animation-duration: 1s;
     animation-name: removeAni;
-}
+} */
 
 @keyframes addAni {
     0% {
