@@ -531,6 +531,11 @@ form {
 
 .footerBottomDivRightDiv {}
 
+.footerBottomDivRightDiv,
+.footerBottomDivLeftDiv {
+    background-color: inherit;
+}
+
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
