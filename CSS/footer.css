@@ -224,6 +224,20 @@
     .row4 {
         margin-bottom: 40px;
     }
+    .footerBottomDiv {
+        flex-direction: column;
+    }
+    .footerBottomDivRightDiv,
+    .footerBottomDivRightDiv p,
+    .footerBottomDivLeftDiv p,
+    .footerBottomDivLeftDiv {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footerBottomDivLeftDiv p {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 720px) {
