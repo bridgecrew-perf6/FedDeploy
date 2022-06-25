@@ -515,6 +515,12 @@ form {
     }
 } */
 
+.footerBottomDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
