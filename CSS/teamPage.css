@@ -163,17 +163,6 @@
     margin: 0px 20px 130px 20px;
 }
 
-
-/* #CoreTeam {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
-    grid-template-rows: repeat(2, minmax(377px, 1fr));
-    gap: 130px 20px;
-    align-items: flex-start;
-    justify-items: center;
-} */
-
 .coreMemMainCard {
     display: flex;
     flex-direction: column;
