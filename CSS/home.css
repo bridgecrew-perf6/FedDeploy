@@ -527,6 +527,10 @@ form {
     border-color: #5c5c5a;
 }
 
+.footerBottomDivLeftDiv {}
+
+.footerBottomDivRightDiv {}
+
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
