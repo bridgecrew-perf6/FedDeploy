@@ -527,11 +527,31 @@ form {
     border-color: #5c5c5a;
 }
 
-.footerBottomDivLeftDiv {}
+.footerBottomDivRightDiv,
+.footerBottomDivLeftDiv {
+    font-family: "Manrope";
+    font-style: normal;
+}
 
-.footerBottomDivRightDiv {}
+.footerBottomDivLeftDiv {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+}
+
+.footerBottomDivRightDiv {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.005em;
+    color: #777777;
+}
 
 .footerBottomDivRightDiv,
+.footerBottomDivRightDiv p,
+.footerBottomDivLeftDiv p,
 .footerBottomDivLeftDiv {
     background-color: inherit;
 }
