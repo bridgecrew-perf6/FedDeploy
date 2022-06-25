@@ -531,21 +531,19 @@ form {
 .footerBottomDivLeftDiv {
     font-family: "Manrope";
     font-style: normal;
+    letter-spacing: 0.005em;
+    line-height: 24px;
 }
 
 .footerBottomDivLeftDiv {
     font-weight: 700;
     font-size: 15px;
-    line-height: 24px;
-    letter-spacing: 0.005em;
 }
 
 .footerBottomDivRightDiv {
     font-weight: 400;
     font-size: 17px;
-    line-height: 24px;
     text-align: right;
-    letter-spacing: 0.005em;
     color: #777777;
 }
 
