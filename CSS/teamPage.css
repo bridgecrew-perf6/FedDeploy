@@ -149,6 +149,7 @@
 #OperationsTeam,
 #MarketingTeam,
 #CreativeTeam,
+#CoreTeam,
 #TechnicalTeam {
     position: relative;
     display: flex;
@@ -162,7 +163,8 @@
     margin: 0px 20px 130px 20px;
 }
 
-#CoreTeam {
+
+/* #CoreTeam {
     position: relative;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
@@ -170,7 +172,7 @@
     gap: 130px 20px;
     align-items: flex-start;
     justify-items: center;
-}
+} */
 
 .coreMemMainCard {
     display: flex;
