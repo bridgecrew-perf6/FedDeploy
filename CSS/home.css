@@ -515,49 +515,6 @@ form {
     }
 } */
 
-.footerBottomDiv {
-    background-color: inherit;
-    margin-top: 60px;
-    padding: 10px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-style: solid;
-    border-width: 1px 0px 0px 0px;
-    border-color: #5c5c5a;
-}
-
-.footerBottomDivRightDiv,
-.footerBottomDivLeftDiv {
-    font-family: "Manrope";
-    font-style: normal;
-    letter-spacing: 0.005em;
-    line-height: 24px;
-    max-width: 40%;
-}
-
-.footerBottomDivLeftDiv {
-    font-weight: 700;
-    font-size: 15px;
-}
-
-.footerBottomDivRightDiv {
-    font-weight: 400;
-    font-size: 17px;
-    text-align: right;
-}
-
-.footerBottomDivRightDiv p {
-    color: #777777;
-}
-
-.footerBottomDivRightDiv,
-.footerBottomDivRightDiv p,
-.footerBottomDivLeftDiv p,
-.footerBottomDivLeftDiv {
-    background-color: inherit;
-}
-
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
