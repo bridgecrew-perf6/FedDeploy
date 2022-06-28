@@ -215,7 +215,8 @@
 
 .formDiv,
 .ContactUSDiv,
-.ContactUSDiv p {
+.ContactUSDiv p,
+#ContactUsMobo {
     background-color: transparent;
 }
 
