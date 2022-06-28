@@ -2,6 +2,8 @@ const sections = document.querySelectorAll("section[id]");
 
 window.addEventListener("scroll", navHighlighter);
 
+console.log(window.location.href);
+
 function navHighlighter() {
     let scrollY = window.pageYOffset;
     sections.forEach((current) => {
