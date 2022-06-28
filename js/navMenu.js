@@ -40,22 +40,6 @@ function navHighlighter() {
                 document.getElementById(
                     "HomeActiveMobo"
                 ).innerHTML = ` <p class="active" id="HomeActive">Home</p>`;
-            } else if (current.getAttribute("id") === "ContactUs") {
-                document.getElementById("ContactUsATag").innerHTML = ` <li>
-                <p class="active">Contact Us</p>
-            </li>`;
-
-                document.getElementById(
-                    "KnowUsMobo"
-                ).innerHTML = `<p class="active">About Us</p>`;
-
-                document.getElementById(
-                    "HomeActive"
-                ).innerHTML = ` <p id="HomeActive">Home</p>`;
-
-                document.getElementById(
-                    "HomeActiveMobo"
-                ).innerHTML = ` <p id="HomeActive">Home</p>`;
             }
         } else {}
     });
