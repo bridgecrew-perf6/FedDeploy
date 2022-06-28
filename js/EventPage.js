@@ -28,8 +28,6 @@ function navHighlighter() {
             current.getBoundingClientRect().top + window.pageYOffset - 50;
         sectionId = current.getAttribute("id");
 
-        console.log(PageName);
-
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             if (
                 current.getAttribute("id") === "ContactUs" ||
@@ -45,11 +43,11 @@ function navHighlighter() {
 
                 document.getElementById(
                     "HomeActive"
-                ).innerHTML = ` <p id="HomeActive">Events</p>`;
+                ).innerHTML = ` <p id="HomeActive">${PageName}</p>`;
 
                 document.getElementById(
                     "HomeActiveMobo"
-                ).innerHTML = ` <p id="HomeActive">Events</p>`;
+                ).innerHTML = ` <p id="HomeActive">${PageName}</p>`;
             } else if (
                 current.getAttribute("id") !== "ContactUs" ||
                 current.getAttribute("id") !== "ContactUsMobo"
@@ -64,11 +62,11 @@ function navHighlighter() {
 
                 document.getElementById(
                     "HomeActive"
-                ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
+                ).innerHTML = ` <p class="active" id="HomeActive">${PageName}</p>`;
 
                 document.getElementById(
                     "HomeActiveMobo"
-                ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
+                ).innerHTML = ` <p class="active" id="HomeActive">${PageName}</p>`;
             }
         } else {}
     });
