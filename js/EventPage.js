@@ -7,7 +7,7 @@ var PageName = "";
 if (path.search("Podcasts") === 1) {
     PageName = "Podcasts";
 } else if (path.search("Team") === 1) {
-    PageName = "Team";
+    PageName = "Our Team";
 } else if (path.search("event") === 1) {
     PageName = "Events";
 }
