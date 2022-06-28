@@ -251,7 +251,7 @@
     margin-bottom: 1.5rem;
 }
 
-.form__input {
+.formInput {
     position: absolute;
     top: 0;
     left: 0;
@@ -280,15 +280,12 @@
 
 .formButton {
     font-family: "Rubik", sans-serif;
-    display: block;
-    margin-left: auto;
     padding: 0.75rem 2rem;
     outline: none;
     border: none;
     background-color: var(--first-color);
-    color: #fff;
     font-size: var(--normal-font-size);
-    border-radius: 0.5rem;
+    border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -297,7 +294,7 @@
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
-.form__input:focus+.formLabel {
+.formInput:focus+.formLabel {
     top: -0.5rem;
     left: 0.8rem;
     color: var(--first-color);
@@ -307,7 +304,7 @@
     background-color: #1e1e1e;
 }
 
-.form__input:not(:placeholder-shown).form__input:not(:focus)+.formLabel {
+.formInput:not(:placeholder-shown).formInput:not(:focus)+.formLabel {
     background-color: #1e1e1e;
     top: -0.5rem;
     left: 0.8rem;
@@ -316,7 +313,7 @@
     z-index: 10;
 }
 
-.form__input:focus {
+.formInput:focus {
     border: 1.5px solid var(--first-color);
 }
 
