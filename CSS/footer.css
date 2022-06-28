@@ -224,8 +224,12 @@
 }
 
 .ContactUSDiv p {
-    font-family: "Manrope", sans-serif;
-    margin-bottom: 20px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.7px;
+    margin-bottom: 11px;
 }
 
 :root {
