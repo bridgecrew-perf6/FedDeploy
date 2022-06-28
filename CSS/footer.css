@@ -214,8 +214,18 @@
 }
 
 .formDiv,
-.ContactUSDiv {
+.ContactUSDiv,
+.ContactUSDiv p {
     background-color: transparent;
+}
+
+.ContactUSDiv {
+    margin-top: 20px;
+}
+
+.ContactUSDiv p {
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 20px;
 }
 
 :root {
