@@ -21,6 +21,7 @@
     <script src="./js/popUp.js" defer></script>
     <script src="./js/data.js" defer></script>
     <script src="./js/Team.js" defer></script>
+    <script src="./js/navMenu.js" defer></script>
 
     <title>Events</title>
 </head>
@@ -43,15 +44,16 @@
                         <ul id="NavUl">
                             <a href="/" class="linkClass">
                                 <li id="newLiTag">
-                                    <p class="active" id="HomeActive">Home</p>
-                                </li>
-                            </a>
-                            <a href="/event.html" class="linkClass">
-                                <li>Events
+                                    Home
                                     <!-- <div class="ArrowDiv">
                         <div class="NavArrow"></div>
                     </div>
                     <p id="NavNewPtag">New!</p> -->
+                                </li>
+                            </a>
+                            <a href="/event.html" class="linkClass">
+                                <li>
+                                    <p class="active">Events</p>
                                 </li>
                             </a>
                             <a href="/Podcasts.html" class="linkClass">
@@ -60,12 +62,10 @@
                             <a href="./Team.html" class="linkClass">
                                 <li>Our Team</li>
                             </a>
-                            <a href="#KnowUs" class="linkClass" id="KnowUsATag">
+                            <a href="./#KnowUs" class="linkClass">
                                 <li>About Us</li>
                             </a>
-                            <a href="#ContactUs" class="linkClass" id="ContactUsATag">
-                                <li>Contact Us</li>
-                            </a>
+                            <li>Contact Us</li>
                         </ul>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                 <div class="NavListMoboChild">
                     <div class="NewMoboList">
                         <a href="/" class="linkClass">
-                            <p class="active" id="HomeActiveMobo">Home</p>
+                            <p>Home</p>
                         </a>
                         <!-- <div class="NavNewMobo">
                 <div class="NavMoboArrow"></div>
@@ -108,8 +108,8 @@
                     </div>
                     <div class="NewMoboList">
                         <a href="/event.html" class="linkClass">
-                    Events
-                </a>
+                            <p class="active">Events</p>
+                        </a>
                         <div class="NavNewMobo">
                             <div class="NavMoboArrow"></div>
                             <p class="NavNew">New</p>
@@ -134,7 +134,7 @@
             </div> -->
                     </div>
                     <div class="NewMoboList">
-                        <a href="#KnowUs" class="linkClass" onclick="ToggleHam(event)" id="KnowUsMobo">
+                        <a href="./#KnowUs" class="linkClass">
                             <p>About Us</p>
                         </a>
                         <!-- <div class="NavNewMobo">
@@ -143,9 +143,7 @@
             </div> -->
                     </div>
                     <div class="NewMoboList">
-                        <a href="#ContactUsMobo" class="linkClass" onclick="ToggleHam(event)" id="ContactUsATagMobo">
-                            <p>Contact Us</p>
-                        </a>
+                        <p>Contact Us</p>
                         <!-- <div class="NavNewMobo">
                 <div class="NavMoboArrow"></div>
                 <p class="NavNew">New</p>
