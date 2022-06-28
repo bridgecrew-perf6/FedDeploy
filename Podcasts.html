@@ -47,12 +47,12 @@
                                 </li>
                             </a>
                             <a href="/event.html" class="linkClass">
-                                <li>Events</li>
+                                <li id="HomeActive">
+                                    <p class="active">Events</p>
+                                </li>
                             </a>
                             <a href="/Podcasts.html" class="linkClass">
-                                <li>
-                                    <p class="active">Podcasts</p>
-                                </li>
+                                <li>Podcasts</li>
                             </a>
                             <a href="./Team.html" class="linkClass">
                                 <li>Our Team</li>
@@ -60,7 +60,9 @@
                             <a href="./#KnowUs" class="linkClass">
                                 <li>About Us</li>
                             </a>
-                            <li>Contact Us</li>
+                            <a href="#ContactUs" class="linkClass" id="ContactUsATag">
+                                <li>Contact Us</li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -103,7 +105,7 @@
                     </div>
                     <div class="NewMoboList">
                         <a href="/event.html" class="linkClass">
-                            <p>Events</p>
+                            <p id="HomeActiveMobo">Events</p>
                         </a>
                         <div class="NavNewMobo">
                             <div class="NavMoboArrow"></div>
@@ -112,7 +114,7 @@
                     </div>
                     <div class="NewMoboList">
                         <a href="/Podcasts.html" class="linkClass">
-                            <p class="active">Podcasts</p>
+                            <p>Podcasts</p>
                         </a>
                         <!-- <div class="NavNewMobo">
                 <div class="NavMoboArrow"></div>
@@ -138,7 +140,9 @@
             </div> -->
                     </div>
                     <div class="NewMoboList">
-                        <p>Contact Us</p>
+                        <a href="#ContactUs" class="linkClass" onclick="ToggleHam(event)" id="ContactUsATagMobo">
+                            <p>Contact Us</p>
+                        </a>
                         <!-- <div class="NavNewMobo">
                 <div class="NavMoboArrow"></div>
                 <p class="NavNew">New</p>
