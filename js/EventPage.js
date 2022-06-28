@@ -6,15 +6,10 @@ var PageName = "";
 
 if (path.search("Podcasts") === 1) {
     PageName = "Podcasts";
-    console.log("Podcasts Page");
 } else if (path.search("Team") === 1) {
     PageName = "Team";
-    console.log("Team Page");
 } else if (path.search("event") === 1) {
     PageName = "Events";
-    console.log("Event Page");
-} else {
-    console.log("Home Page");
 }
 
 window.addEventListener("scroll", navHighlighter);
