@@ -240,13 +240,6 @@
     --small-font-size: 0.75rem;
 }
 
-.form {
-    /* width: 360px; */
-    /* padding: 4rem 2rem; */
-    /* border-radius: 1rem; */
-    /* box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2); */
-}
-
 .form__title {
     font-weight: 400;
     margin-bottom: 3rem;
