@@ -48,7 +48,7 @@ function navHighlighter() {
                 ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
 
                 document.getElementById(
-                    "EventsActiveMobo"
+                    "HomeActiveMobo"
                 ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
             }
         } else {}
