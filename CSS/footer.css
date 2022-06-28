@@ -213,6 +213,10 @@
     background-color: inherit;
 }
 
+.ContactUSDiv {
+    margin-top: 30px;
+}
+
 @media only screen and (max-width: 1150px) {
     .FooterDes {
         width: 40%;
