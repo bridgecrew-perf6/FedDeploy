@@ -2,17 +2,15 @@ const sections = document.querySelectorAll("section[id]");
 
 let path = window.location.pathname;
 
-console.log(typeof path);
-
-// if (window.location.href.indexOf("event") != -1) {
-//     console.log("Events Page");
-// } else if (window.location.href.indexOf("team") != -1) {
-//     console.log("Team Page");
-// } else if (window.location.href.indexOf("Podcasts") != -1) {
-//     console.log("Podcasts Page");
-// } else {
-//     console.log("Home");
-// }
+if (path.search("event") === 1) {
+    console.log("Events Page");
+} else if (path.search("Team") === 1) {
+    console.log("Team Page");
+} else if (path.search("Podcasts") === 1) {
+    console.log("Podcasts Page");
+} else {
+    console.log("Home");
+}
 
 window.addEventListener("scroll", navHighlighter);
 
