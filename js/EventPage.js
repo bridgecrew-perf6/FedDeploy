@@ -26,19 +26,15 @@ function navHighlighter() {
 
                 document.getElementById(
                     "HomeActive"
-                ).innerHTML = ` <p id="HomeActive">Home</p>`;
+                ).innerHTML = ` <p id="HomeActive">Events</p>`;
 
                 document.getElementById(
                     "HomeActiveMobo"
-                ).innerHTML = ` <p id="HomeActive">Home</p>`;
+                ).innerHTML = ` <p id="HomeActive">Events</p>`;
             } else if (
                 current.getAttribute("id") !== "ContactUs" ||
                 current.getAttribute("id") !== "ContactUsMobo"
             ) {
-                document.getElementById("KnowUsATag").innerHTML = `<li>About Us</li>`;
-
-                document.getElementById("KnowUsMobo").innerHTML = `<p>About Us</p>`;
-
                 document.getElementById(
                     "ContactUsATag"
                 ).innerHTML = `<li>Contact Us</li>`;
