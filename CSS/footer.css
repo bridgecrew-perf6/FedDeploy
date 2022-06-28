@@ -240,11 +240,6 @@
     --small-font-size: 0.75rem;
 }
 
-.form__title {
-    font-weight: 400;
-    margin-bottom: 3rem;
-}
-
 .formDiv {
     position: relative;
     height: 48px;
