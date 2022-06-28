@@ -213,6 +213,11 @@
     background-color: inherit;
 }
 
+.formDiv,
+.ContactUSDiv {
+    background-color: transparent;
+}
+
 :root {
     --first-color: #f45725;
     --input-color: #80868b;
@@ -230,10 +235,10 @@
 }
 
 .form {
-    width: 360px;
-    padding: 4rem 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+    /* width: 360px; */
+    /* padding: 4rem 2rem; */
+    /* border-radius: 1rem; */
+    /* box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2); */
 }
 
 .form__title {
@@ -241,7 +246,7 @@
     margin-bottom: 3rem;
 }
 
-.form__div {
+.formDiv {
     position: relative;
     height: 48px;
     margin-bottom: 1.5rem;
