@@ -2,8 +2,6 @@ const sections = document.querySelectorAll("section[id]");
 
 const path = window.location.pathname;
 
-console.log(path);
-
 if (path.search("Podcasts") === 1) {
     console.log("Podcasts Page");
 } else if (path.search("Team") === 1) {
