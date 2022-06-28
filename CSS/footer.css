@@ -213,8 +213,18 @@
     background-color: inherit;
 }
 
+.ContactUSDiv,
+.ContactUSDiv p,
+.fomtContactUs {
+    background-color: transparent;
+}
+
 .ContactUSDiv {
     margin-top: 30px;
+}
+
+.fomtContactUs {
+    position: relative;
 }
 
 @media only screen and (max-width: 1150px) {
