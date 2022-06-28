@@ -215,7 +215,9 @@
 
 .ContactUSDiv,
 .ContactUSDiv p,
-.fomtContactUs {
+.fomtContactUs,
+#nameContact,
+.nameContactlabel {
     background-color: transparent;
 }
 
@@ -225,6 +227,23 @@
 
 .fomtContactUs {
     position: relative;
+    height: 50px;
+}
+
+#nameContact {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: none;
+}
+
+.nameContactlabel {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1150px) {
