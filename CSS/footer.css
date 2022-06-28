@@ -310,18 +310,9 @@
     z-index: 10;
 }
 
-
-/*Input focus*/
-
 .form__input:focus {
     border: 1.5px solid var(--first-color);
 }
-
-
-/*
-
-
-*/
 
 @media only screen and (max-width: 1150px) {
     .FooterDes {
