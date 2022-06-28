@@ -16,8 +16,6 @@ function navHighlighter() {
                 current.getAttribute("id") === "ContactUs" ||
                 current.getAttribute("id") === "ContactUsMobo"
             ) {
-                // console.log("Contact US");
-
                 document.getElementById("ContactUsATag").innerHTML = `<li>
                 <p class="active">Contact Us</p>
             </li>`;
