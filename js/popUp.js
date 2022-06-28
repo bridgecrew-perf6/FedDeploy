@@ -4,14 +4,18 @@ function pop() {
     popLet++;
     if (popLet % 2 == 0) {
         document.getElementById("popmDiv").style.display = "flex";
-        document.getElementsByClassName("MoboFooter");
 
-        console.log(document.getElementsByClassName("MoboFooter"));
+        document.getElementsByClassName("MoboFooter").style.display = "none";
+
+        // console.log(document.getElementsByClassName("MoboFooter"));
         // document.getElementById("ContactUSDiv").style.display = "none";
         // document.getElementById("news1").style.display = "none";
         document.body.style.overflow = "hidden";
     } else {
         document.getElementById("popmDiv").style.display = "none";
+
+        document.getElementsByClassName("MoboFooter").style.display = "block";
+
         // document.getElementById("ContactUSDiv").style.display = "block";
         // document.getElementById("news0").style.display = "block";
         // document.getElementById("news1").style.display = "block";
