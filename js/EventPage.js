@@ -1,5 +1,19 @@
 const sections = document.querySelectorAll("section[id]");
 
+const path = window.location.pathname;
+
+console.log(path);
+
+if (path.search("Podcasts") === 1) {
+    console.log("Podcasts Page");
+} else if (path.search("Team") === 1) {
+    console.log("Team Page");
+} else if (path.search("event") === 1) {
+    console.log("Event Page");
+} else {
+    console.log("Home Page");
+}
+
 window.addEventListener("scroll", navHighlighter);
 
 function navHighlighter() {
