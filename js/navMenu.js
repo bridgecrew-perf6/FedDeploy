@@ -5,6 +5,8 @@ window.addEventListener("scroll", navHighlighter);
 function navHighlighter() {
     let scrollY = window.pageYOffset;
     sections.forEach((current) => {
+        console.log(current);
+
         const sectionHeight = current.offsetHeight;
 
         const sectionTop =
@@ -28,7 +30,10 @@ function navHighlighter() {
                 document.getElementById(
                     "HomeActiveMobo"
                 ).innerHTML = ` <p id="HomeActive">Home</p>`;
-            } else if (current.getAttribute("id") !== "KnowUs") {
+            } else if (
+                current.getAttribute("id") !== "ContactUs" ||
+                current.getAttribute("id") !== "ContactUsMobo"
+            ) {} else if (current.getAttribute("id") !== "KnowUs") {
                 document.getElementById("KnowUsATag").innerHTML = `<li>About Us</li>`;
 
                 document.getElementById("KnowUsMobo").innerHTML = `<p>About Us</p>`;
