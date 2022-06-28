@@ -45,11 +45,11 @@ function navHighlighter() {
 
                 document.getElementById(
                     "HomeActive"
-                ).innerHTML = ` <p class="active" id="HomeActive">Home</p>`;
+                ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
 
                 document.getElementById(
-                    "HomeActiveMobo"
-                ).innerHTML = ` <p class="active" id="HomeActive">Home</p>`;
+                    "EventsActiveMobo"
+                ).innerHTML = ` <p class="active" id="HomeActive">Events</p>`;
             }
         } else {}
     });
