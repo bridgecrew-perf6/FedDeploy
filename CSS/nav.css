@@ -180,7 +180,7 @@
         position: fixed;
         height: 48px;
         display: flex;
-        z-index: 2;
+        z-index: 3;
     }
     #navMOboCon {
         margin: 10px 20px;
@@ -258,7 +258,7 @@
         transform: translateX(-100%);
         transition: all 0.5s;
         transition-delay: 0.3s;
-        z-index: 2;
+        z-index: 3;
     }
     #navtoggleDiv {
         background-color: transparent;
