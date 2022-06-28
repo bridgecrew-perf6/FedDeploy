@@ -5,8 +5,6 @@ window.addEventListener("scroll", navHighlighter);
 function navHighlighter() {
     let scrollY = window.pageYOffset;
     sections.forEach((current) => {
-        console.log(current);
-
         const sectionHeight = current.offsetHeight;
 
         const sectionTop =
