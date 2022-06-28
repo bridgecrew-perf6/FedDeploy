@@ -266,7 +266,7 @@
     z-index: 1;
 }
 
-.form__label {
+.formLabel {
     position: absolute;
     left: 1rem;
     top: 1rem;
@@ -295,7 +295,7 @@
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
-.form__input:focus+.form__label {
+.form__input:focus+.formLabel {
     top: -0.5rem;
     left: 0.8rem;
     color: var(--first-color);
@@ -305,7 +305,7 @@
     background-color: #1e1e1e;
 }
 
-.form__input:not(:placeholder-shown).form__input:not(:focus)+.form__label {
+.form__input:not(:placeholder-shown).form__input:not(:focus)+.formLabel {
     background-color: #1e1e1e;
     top: -0.5rem;
     left: 0.8rem;
