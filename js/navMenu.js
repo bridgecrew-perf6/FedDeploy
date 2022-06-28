@@ -29,12 +29,42 @@ function navHighlighter() {
                     "HomeActiveMobo"
                 ).innerHTML = ` <p id="HomeActive">Home</p>`;
             } else if (
+                current.getAttribute("id") === "ContactUs" ||
+                current.getAttribute("id") === "ContactUsMobo"
+            ) {
+                // console.log("Contact US");
+
+                document.getElementById("ContactUsATag").innerHTML = `<li>
+                <p class="active">Contact Us</p>
+            </li>`;
+
+                document.getElementById(
+                    "ContactUsATagMobo"
+                ).innerHTML = `<p class="active">Contact Us</p>`;
+
+                document.getElementById(
+                    "HomeActive"
+                ).innerHTML = ` <p id="HomeActive">Home</p>`;
+
+                document.getElementById(
+                    "HomeActiveMobo"
+                ).innerHTML = ` <p id="HomeActive">Home</p>`;
+            } else if (
+                current.getAttribute("id") !== "KnowUs" ||
                 current.getAttribute("id") !== "ContactUs" ||
                 current.getAttribute("id") !== "ContactUsMobo"
-            ) {} else if (current.getAttribute("id") !== "KnowUs") {
+            ) {
                 document.getElementById("KnowUsATag").innerHTML = `<li>About Us</li>`;
 
                 document.getElementById("KnowUsMobo").innerHTML = `<p>About Us</p>`;
+
+                document.getElementById(
+                    "ContactUsATag"
+                ).innerHTML = `<li>Contact Us</li>`;
+
+                document.getElementById(
+                    "ContactUsATagMobo"
+                ).innerHTML = `<p>Contact Us</p>`;
 
                 document.getElementById(
                     "HomeActive"
