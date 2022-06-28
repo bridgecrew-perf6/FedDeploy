@@ -5,7 +5,7 @@ function pop() {
     if (popLet % 2 == 0) {
         document.getElementById("popmDiv").style.display = "flex";
 
-        document.getElementsByClassName("MoboFooter").style.display = "none";
+        document.getElementsByClassName("MoboFooter")[0].style.display = "none";
 
         // console.log(document.getElementsByClassName("MoboFooter"));
         // document.getElementById("ContactUSDiv").style.display = "none";
@@ -14,7 +14,7 @@ function pop() {
     } else {
         document.getElementById("popmDiv").style.display = "none";
 
-        document.getElementsByClassName("MoboFooter").style.display = "block";
+        document.getElementsByClassName("MoboFooter")[0].style.display = "block";
 
         // document.getElementById("ContactUSDiv").style.display = "block";
         // document.getElementById("news0").style.display = "block";
