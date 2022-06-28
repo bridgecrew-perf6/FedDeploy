@@ -2,11 +2,16 @@ const sections = document.querySelectorAll("section[id]");
 
 const path = window.location.pathname;
 
+var PageName = "";
+
 if (path.search("Podcasts") === 1) {
+    PageName = "Podcasts";
     console.log("Podcasts Page");
 } else if (path.search("Team") === 1) {
+    PageName = "Team";
     console.log("Team Page");
 } else if (path.search("event") === 1) {
+    PageName = "Events";
     console.log("Event Page");
 } else {
     console.log("Home Page");
@@ -22,6 +27,8 @@ function navHighlighter() {
         const sectionTop =
             current.getBoundingClientRect().top + window.pageYOffset - 50;
         sectionId = current.getAttribute("id");
+
+        console.log(PageName);
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             if (
