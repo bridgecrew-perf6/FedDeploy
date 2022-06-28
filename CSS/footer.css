@@ -278,7 +278,8 @@
     transition: 0.3s;
 }
 
-.form__button {
+.formButton {
+    font-family: "Rubik", sans-serif;
     display: block;
     margin-left: auto;
     padding: 0.75rem 2rem;
@@ -292,7 +293,7 @@
     transition: 0.3s;
 }
 
-.form__button:hover {
+.formButton:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
 
