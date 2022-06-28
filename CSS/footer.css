@@ -296,7 +296,7 @@
     left: 1rem;
     top: 1rem;
     padding: 0 0.25rem;
-    background-color: #1e1e1e;
+    background-color: transparent;
     color: var(--input-color);
     font-size: var(--normal-font-size);
     transition: 0.3s;
@@ -330,12 +330,11 @@
     font-size: var(--small-font-size);
     font-weight: 500;
     z-index: 10;
+    background-color: #1e1e1e;
 }
 
-
-/*Input focus sticky top label*/
-
 .form__input:not(:placeholder-shown).form__input:not(:focus)+.form__label {
+    background-color: #1e1e1e;
     top: -0.5rem;
     left: 0.8rem;
     font-size: var(--small-font-size);
