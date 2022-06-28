@@ -219,37 +219,14 @@
 
 */
 
-
-/*===== GOOGLE FONTS =====*/
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
-
-/*===== VARIABLES CSS =====*/
-
 :root {
-    /*===== Colores =====*/
-    /* --first-color: #1a73e8; */
     --first-color: #f45725;
     --input-color: #80868b;
     --border-color: #dadce0;
-    /*===== Fuente y tipografia =====*/
     --body-font: "Roboto", sans-serif;
     --normal-font-size: 1rem;
     --small-font-size: 0.75rem;
 }
-
-
-/*===== BASE =====*/
-
-
-/* *,
-::before,
-::after {
-    box-sizing: border-box;
-} */
-
-
-/*===== FORM =====*/
 
 .l-form {
     display: flex;
@@ -319,9 +296,6 @@
 .form__button:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
 }
-
-
-/*Input focus move up label*/
 
 .form__input:focus+.form__label {
     top: -0.5rem;
