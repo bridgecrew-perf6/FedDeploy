@@ -17,6 +17,8 @@ form2.addEventListener("submit", (e) => {
             body: new FormData(form2),
         })
         .then((response) => {
+            console.log(document.getElementById("add"));
+
             document.getElementById("add").style.display = "flex";
             setTimeout(function() {
                 document.getElementById("add").style.display = "none";
