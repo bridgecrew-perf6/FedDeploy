@@ -478,18 +478,6 @@ form {
     transition: all 0.3s ease-out;
 }
 
-
-/* @keyframes removeAni {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1.3);
-        opacity: 0;
-    }
-} */
-
 @media only screen and (max-width: 980px) {
     .WhyHowWhatDiv {
         flex-direction: column;
