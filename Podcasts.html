@@ -157,6 +157,13 @@
                 Podcasts
             </section>
 
+            <!-- alert -->
+            <div class="popUPSucessDiv" id="add">
+                <div class="popUpChildDivHome">
+                    Thanks for Contacting us..! We Will Contact You Soon...
+                </div>
+            </div>
+
             <!-- footer -->
             <!-- footer destop-->
             <section id="ContactUs">
@@ -210,20 +217,19 @@
 
                             <div class="ContactUSDiv">
                                 <p>Contact Us</p>
-                                <form action="" class="form">
+                                <form method="POST" name="google-sheetContactUs" class="form">
 
                                     <div class="formDiv">
-                                        <input type="text" class="formInput" placeholder=" ">
+                                        <input type="text" class="formInput" placeholder=" " name="Name" autocomplete="off" required>
                                         <label for="" class="formLabel">Name</label>
                                     </div>
 
                                     <div class="formDiv">
-                                        <input type="email" class="formInput" placeholder=" ">
+                                        <input type="email" class="formInput" placeholder=" " name="Email" autocomplete="off" required>
                                         <label for="" class="formLabel">Email</label>
                                     </div>
-
+                                    <button type="submit" name="submit" class="formButton" id="ContactUsBtn">Contact Us</button>
                                 </form>
-                                <button class="formButton">Contact Us</button>
                             </div>
                             <!-- <p class="newsletter">Newsletter</p>
                 <div class="newsletterPositionDiv" id="news0">
@@ -273,20 +279,19 @@
                 <section id="ContactUsMobo">
                     <div class="ContactUSDiv">
                         <p>Contact Us</p>
-                        <form action="" class="form">
+                        <form method="POST" name="google-sheetContactUsMobo" class="form">
 
                             <div class="formDiv">
-                                <input type="text" class="formInput" placeholder=" ">
+                                <input type="text" class="formInput" placeholder=" " name="Name" autocomplete="off" required>
                                 <label for="" class="formLabel">Name</label>
                             </div>
 
                             <div class="formDiv">
-                                <input type="email" class="formInput" placeholder=" ">
+                                <input type="email" class="formInput" placeholder=" " name="Email" autocomplete="off" required>
                                 <label for="" class="formLabel">Email</label>
                             </div>
-
+                            <button type="submit" name="submit" class="formButton" id="ContactUsBtnMobo">Contact Us</button>
                         </form>
-                        <button class="formButton">Contact Us</button>
                     </div>
                 </section>
 
