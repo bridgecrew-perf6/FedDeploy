@@ -1,0 +1,73 @@
+.backgroundImg {
+    width: 100%;
+    height: 740px;
+}
+
+.container-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: transparent;
+    padding: 0rem 0px 4rem 0px;
+}
+
+.KnowUsmDiv {
+    padding: 1rem 0px 6rem 0px;
+    background-image: url("./../Img/image-23.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cover-btn{
+    background-color: #f45725;
+    width:370px;
+    height: 64px;
+    border-radius: 6px;
+    padding: 20px;
+    gap: 10px;
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+
+}
+
+.KnowUspTag,
+#KnowUspTag {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.KnowUspTag {
+    color: #f45725;
+}
+
+
+#womenBelowText {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    background-color: transparent;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 90px;
+}
+
+
+
